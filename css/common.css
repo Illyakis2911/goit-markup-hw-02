@@ -11,7 +11,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 a {
-  text-align: none;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -40,6 +40,9 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.navigation.current {
+  color: var(--accent-color);
 }
 .navigation:hover,
 .navigation:focus {
@@ -86,6 +89,7 @@ a {
 
 .adres {
   color: var(--begraut-ccolor);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7px;
   letter-spacing: 0.03em;
@@ -94,14 +98,11 @@ a {
 .adres:hover,
 .adres:focus {
   color: var(--accent-color);
-  font-size: 14px;
-  line-height: 1.7px;
-  letter-spacing: 0.03em;
 }
 
 .footer-contacts {
   color: rgb(255, 255, 255, 60%);
-
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7px;
 

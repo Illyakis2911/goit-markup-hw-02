@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.02em;
 }
 a {
-  text-align: none;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -51,6 +51,9 @@ a {
   font-size: 14px;
   line-height: 1.14;
 }
+.navigation.current {
+  color: var(--accent-color);
+}
 .navigation:hover,
 .navigation:focus {
   color: var(--accent-color);
@@ -58,6 +61,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .contacts {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -213,6 +217,7 @@ a {
 /* PORTFOLIO */
 /* кнопки навігації */
 .button-navigation {
+  font-family: inherit;
   background-color: var(--team-background);
   color: var(--basic-color-text);
 
