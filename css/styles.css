@@ -188,6 +188,7 @@ a {
 
 .adres {
   color: var(--begraut-ccolor);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -203,7 +204,7 @@ a {
 
 .footer-contacts {
   color: rgb(255, 255, 255, 60%);
-
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 
